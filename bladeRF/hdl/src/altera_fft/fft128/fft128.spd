@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/fft128_fft_ii_0_2n128cos.hex"
+   type="HEX"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/fft128_fft_ii_0_1n128sin.hex"
+   type="HEX"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/fft128_fft_ii_0_2n128sin.hex"
+   type="HEX"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/fft128_fft_ii_0_3n128cos.hex"
+   type="HEX"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/fft128_fft_ii_0_3n128sin.hex"
+   type="HEX"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/fft128_fft_ii_0_1n128cos.hex"
+   type="HEX"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/fft128_fft_ii_0.vho"
+   type="VHDL"
+   library="fft_ii_0" />
+ <file path="simulation/fft128.vhd" type="VHDL" />
+ <topLevel name="fft128" />
+ <deviceFamily name="cycloneive" />
+</simPackage>

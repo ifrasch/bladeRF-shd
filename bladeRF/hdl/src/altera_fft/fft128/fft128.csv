@@ -1,0 +1,24 @@
+# system info fft128 on 2017.02.24.14:07:18
+system_info:
+name,value
+DEVICE,EP4CE40F23C8
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1487963192
+#
+#
+# Files generated for fft128 on 2017.02.24.14:07:18
+files:
+filepath,kind,attributes,module,is_top
+simulation/fft128.vhd,VHDL,,fft128,true
+simulation/submodules/fft128_fft_ii_0_2n128cos.hex,HEX,,fft128_fft_ii_0,false
+simulation/submodules/fft128_fft_ii_0_1n128sin.hex,HEX,,fft128_fft_ii_0,false
+simulation/submodules/fft128_fft_ii_0_2n128sin.hex,HEX,,fft128_fft_ii_0,false
+simulation/submodules/fft128_fft_ii_0_3n128cos.hex,HEX,,fft128_fft_ii_0,false
+simulation/submodules/fft128_fft_ii_0_3n128sin.hex,HEX,,fft128_fft_ii_0,false
+simulation/submodules/fft128_fft_ii_0_1n128cos.hex,HEX,,fft128_fft_ii_0,false
+simulation/submodules/fft128_fft_ii_0.vho,VHDL,,fft128_fft_ii_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fft128.fft_ii_0,fft128_fft_ii_0

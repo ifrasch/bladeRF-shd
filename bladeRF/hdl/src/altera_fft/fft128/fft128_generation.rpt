@@ -1,0 +1,62 @@
+Info: Starting: Create simulation model
+Info: qsys-generate /home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128.qsys --simulation=VHDL --output-directory=/home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/simulation --family="Cyclone IV E" --part=EP4CE40F23C8
+Progress: Loading altera_fft/fft128.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 15.0]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft128: Generating fft128 "fft128" for SIM_VHDL
+Warning: Parallel compilation is not licensed and has been disabled
+Info: fft_ii_0: Created simgen file at: /tmp/alt7221_3320236071464300246.dir/0001_fft_ii_0_gen/fft128_fft_ii_0.vho
+Info: fft_ii_0: "fft128" instantiated altera_fft_ii "fft_ii_0"
+Info: fft128: Done "fft128" with 2 modules, 8 files
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=/home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/fft128.spd --output-directory=/home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/fft128.spd --output-directory=/home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in /home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128.qsys --block-symbol-file --output-directory=/home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128 --family="Cyclone IV E" --part=EP4CE40F23C8
+Progress: Loading altera_fft/fft128.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 15.0]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128.qsys --synthesis=VHDL --output-directory=/home/ian/projects/Thesis/bladeRF/hdl/src/altera_fft/fft128/synthesis --family="Cyclone IV E" --part=EP4CE40F23C8
+Progress: Loading altera_fft/fft128.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 15.0]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft128: Generating fft128 "fft128" for QUARTUS_SYNTH
+Info: fft_ii_0: "fft128" instantiated altera_fft_ii "fft_ii_0"
+Info: fft128: Done "fft128" with 2 modules, 106 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
