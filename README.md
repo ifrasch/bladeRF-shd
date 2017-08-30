@@ -1,5 +1,6 @@
 # bladeRF-shd
-FPGA-based implementation of RF spectrum hole detector (SHD) on bladeRF software-defined radio. Completed for Rochester Institute of Technology (RIT) Computer Engineering MS Thesis.  
+FPGA-based implementation of RF spectrum hole detector (SHD) on bladeRF software-defined radio. Completed for Rochester Institute of Technology (RIT) Computer Engineering MS Thesis, available here:  
+http://scholarworks.rit.edu/cgi/viewcontent.cgi?article=10585&context=theses  
 Author: Ian Frasch
 
 Directories are organized as follows:
