@@ -1,5 +1,5 @@
 #include <stdbool.h>
-#include "nios_pkt_shd_start.h"
+#include "nios_pkt_shd_control.h"
 #include "nios_pkt_shd_params.h"
 #include "shd_defines.h"
 #include "devices.h"
